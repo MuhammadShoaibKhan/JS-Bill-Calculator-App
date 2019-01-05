@@ -1,0 +1,83 @@
+
+   
+    body {
+        height: 820px;
+        background-color: red; /* For browsers that do not support gradients */
+        background: linear-gradient(to top left, #33ccff 1%, #99ff66 64%);
+        
+    }
+
+    table{
+        width: 350px;
+        text-align: center;
+        background-color: aquamarine;
+        margin: 0 auto;
+    }
+   
+    input[type=text], select {
+    
+        padding: 12px 20px;
+        margin: 12px;
+        
+        display: inline-block;
+          
+        border: 3px solid rgb(248, 83, 166);
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input[type=button] {
+    
+        background-color: #4CAF50;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        
+        
+        
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: 3px solid rgb(36, 119, 64);
+        border-radius: 4px;
+        cursor: pointer;
+        
+    }
+
+    input[type=button]:hover {
+        background-color: #e8f800;
+        
+    }
+
+    h1, h3{
+        width: 500px;
+        margin: auto;
+        text-align: center;
+    }
+    
+
+    form{
+        width: 350px;
+        margin: auto;
+        border: 5px solid black;
+        
+    
+    }
+
+/*
+
+background-image: linear-gradient(to right, red , yellow); /* Standard syntax (must be last) 
+ background-color: linear-gradient(to top left, #33ccff 1%, #99ff66 64%);
+        background-size: 400% 400%;
+
+        background: linear-gradient(to top left, #33ccff 1%, #99ff66 64%);
+
+
+coral;
+ background:  -webkit-linear-gradient(to top left, #33ccff 1%, #99ff66 64%);
+       background-size: 400% 400%;
+
+
+ width: 800px;
+    height: 500px;
+    margin: 100px auto;
+
+
+*/
